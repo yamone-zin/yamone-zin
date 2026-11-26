@@ -20,6 +20,19 @@ I am a PhD student in Computer Science at the University of Tsukuba, Japan, work
 - Low-Precision Inference (FP16 / BF16)
 - Functional Programming and Metaprogramming
 
+## ⭐ Featured Research
+
+### LLM Numerical Reproducibility — Hadamard Error Gauges for Low-Precision GPU GEMM
+
+Doctoral research implementation within the CVLAB Reproducibility program (direction: Pedro Valois): three staged gauges that isolate whether a fixed orthogonal Hadamard transform on the GEMM contraction axis changes fp16/bf16 numerical error when the GEMM runs on the same NVIDIA GPU kernels real inference uses — with pre-measurement invariance gates, deterministic cuBLAS configuration, and seed-stratified statistics.
+
+- **NumPy isolation study** (`gemm_error_gauge`) — CPU fp16 rounding model with error stage decomposition
+- **cuBLAS validation** (`gpu_gemm_error_gauge`) — the real inference execution path on CUDA
+- **Dimension sweep** (`gpu_gemm_dim_sweep`) — resolves the fixed shape into M / N / K curves
+- **Real-weight mode** — one pinned Qwen3-8B projection as operand B (campaign record stays internal to CVLAB)
+
+[![Repository](https://img.shields.io/badge/View_Repository-1D4ED8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yamone-zin/llm-numerical-reproducibility)
+
 ## 🛠️ Technical Skills
 
 ### Artificial Intelligence & Machine Learning
