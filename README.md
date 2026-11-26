@@ -1,4 +1,4 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=220&section=header&text=Ya%20Mone%20Zin&fontSize=45&fontColor=ffffff&desc=AI%20Researcher%20%7C%20Software%20Developer&descAlignY=65)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=220&section=header&text=Ya%20Mone%20Zin&fontSize=45&fontColor=ffffff&desc=AI%20Researcher%20%7C%20Doctoral%20Student&descAlignY=65)
 
 ## 👩🏻‍💻 About Me
 
